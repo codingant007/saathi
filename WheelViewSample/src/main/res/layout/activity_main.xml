@@ -18,63 +18,58 @@
         android:orientation="vertical" >
 
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="8">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/titleback"
-            android:src="@color/transparent"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
-
+        android:layout_weight="8"
+        android:orientation="vertical">
 
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="nik"
-            android:id="@+id/description"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:gravity="center"
-            android:layout_below="@+id/title" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="4"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Title"
             android:id="@+id/title"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
             android:gravity="center"
+            android:background="@color/evernotegreen"
+            android:textStyle="bold"
+            android:textColor="@color/white"
             />
 
-    </RelativeLayout>
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="26"
+            android:text="nik"
+            android:id="@+id/description"
+            android:gravity="center"
+            android:background="@color/transparent_gray"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="13">
+        android:layout_weight="13"
+        android:padding="100dp">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/wheelback"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/images"
+            android:src="@drawable/saathilogo"
              />
-    </RelativeLayout>
+    </FrameLayout>
 
 
 </LinearLayout>

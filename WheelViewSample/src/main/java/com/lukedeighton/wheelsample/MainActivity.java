@@ -9,6 +9,8 @@ import android.graphics.drawable.shapes.OvalShape;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,6 +34,8 @@ public class MainActivity extends Activity {
     ImageView wheelBack;
     String[] titleList;
     String[] descriptionList;
+    Animation fadeIn;
+    Animation FadeOut;
 
     private static final int ITEM_COUNT = 10;
 
@@ -43,10 +47,13 @@ public class MainActivity extends Activity {
         WheelView wheelView = (WheelView) findViewById(R.id.wheelview);
         title = (TextView)findViewById(R.id.title);
         description = (TextView)findViewById(R.id.description);
-        titleBack = (ImageView)findViewById(R.id.titleback);
+        //titleBack = (ImageView)findViewById(R.id.titleback);
         wheelBack = (ImageView)findViewById(R.id.wheelback);
         titleList = getResources().getStringArray(R.array.title_list);
         descriptionList = getResources().getStringArray(R.array.description_list);
+        fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in);
+        fadeIn = AnimationUtils.loadAnimation(this,R.anim.fade_out);
+
 
 
         //create data for the adapter
@@ -56,9 +63,39 @@ public class MainActivity extends Activity {
             entries.add(entry);
         }*/
 
+
         List<Drawable> entries = new ArrayList<Drawable>(ITEM_COUNT);
         for(int i=0; i<ITEM_COUNT ; i++){
-            Drawable d = getResources().getDrawable(R.drawable.images);
+            int drawableId;
+            switch (i){
+                case 0:
+                    drawableId = R.drawable.n0; break;
+                case 1:
+                    drawableId = R.drawable.n1; break;
+                case 2:
+                    drawableId = R.drawable.n2; break;
+                case 3:
+                    drawableId = R.drawable.n3; break;
+                case 4:
+                    drawableId = R.drawable.n4; break;
+                case 5:
+                    drawableId = R.drawable.n5; break;
+                case 6:
+                    drawableId = R.drawable.n6; break;
+                case 7:
+                    drawableId = R.drawable.n7; break;
+                case 8:
+                    drawableId = R.drawable.n8; break;
+                case 9:
+                    drawableId = R.drawable.n9; break;
+                case 10:
+                    drawableId = R.drawable.n10; break;
+                case 11:
+                    drawableId = R.drawable.n11; break;
+                default:
+                    drawableId = R.drawable.images;
+            }
+            Drawable d = getResources().getDrawable(drawableId);
             entries.add(d);
         }
 
@@ -82,15 +119,12 @@ public class MainActivity extends Activity {
             @Override
             public void onWheelItemSelected(WheelView parent, int position) {
                 //get the item at this position
-                //Map.Entry<String, Integer> selectedEntry = ((MaterialColorAdapter) parent.getAdapter()).getItem(position);
-                //Drawable selectedEntry = ((WheelArrayAdapter) parent.getAdapter()).getItem(position);
                 Drawable selectedEntry = ((WheelArrayAdapter<Drawable>)parent.getAdapter()).getItem(position);
 
                 title.setText(titleList[position]);
                 description.setText(descriptionList[position]);
-                //titleBack.setImageResource(R.drawable.bg1);
 
-                //parent.setSelectionColor(getContrastColor(selectedEntry));
+
 
             }
         });
@@ -101,25 +135,47 @@ public class MainActivity extends Activity {
                 String msg = String.valueOf(position) + " " + isSelected;
                 Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
 
-                switch (position){
+                switch (position) {
                     case 0:
-                        MainActivity.this.startActivity(new Intent(MainActivity.this,PlainActivity.class));break;
+                        MainActivity.this.startActivity(new Intent(MainActivity.this, PlainActivity.class));
+                        break;
                     case 1:
-                        MainActivity.this.startActivity(new Intent(MainActivity.this,TabbedActivity.class));break;
+                        MainActivity.this.startActivity(new Intent(MainActivity.this, TabbedActivity.class));
+                        break;
                     case 2:
-                        MainActivity.this.startActivity(new Intent(MainActivity.this,ListViewActivity.class));break;
+                        MainActivity.this.startActivity(new Intent(MainActivity.this, ListViewActivity.class));
+                        break;
                     case 3:
-                        MainActivity.this.startActivity(new Intent(MainActivity.this,ImageList.class));break;
+                        MainActivity.this.startActivity(new Intent(MainActivity.this, ImageList.class));
+                        break;
                     default:
-                        MainActivity.this.startActivity(new Intent(MainActivity.this,PlainActivity.class));break;
+                        MainActivity.this.startActivity(new Intent(MainActivity.this, PlainActivity.class));
+                        break;
                 }
 
 
             }
         });
 
-        //wheelView.setWheelDrawable(R.drawable.back1);
+        fadeIn.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
 
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
+
+
+        //wheelView.setWheelDrawable(R.drawable.back1);
         //initialise the selection drawable with the first contrast color
         //wheelView.setSelectionColor(getContrastColor(entries.get(0)));
     }
