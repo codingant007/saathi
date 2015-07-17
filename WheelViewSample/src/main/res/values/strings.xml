@@ -16,6 +16,35 @@
         <item>blah blah</item>
         <item>blah blah</item>
     </string-array>
+
+    <string-array name="title_list">
+        <item>Campus Life</item>
+        <item>Facilities</item>
+        <item>How to reach</item>
+        <item>Contacts</item>
+        <item>Utilities</item>
+        <item>Bus Timings</item>
+        <item>Freshman Guide</item>
+        <item>The Timetable Challage</item>
+        <item>Freshmen Events</item>
+        <item>Campus Maps</item>
+        <item>FAQ</item>
+    </string-array>
+
+    <string-array name="description_list">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget sagittis nulla. Nullam urna nisi, luctus non tellus vitae, pulvinar fermentum eros. Nam mattis tincidunt dolor quis pharetra. Phasellus rhoncus dignissim ipsum ut hendrerit. Phasellus tempor elit sed felis pulvinar ornare.</item>
+        <item>Cras at urna laoreet, cursus lorem vel, ultrices lectus. Nullam placerat tincidunt nunc nec sagittis. Donec ornare ligula sit amet quam sodales tempor. Cras semper nibh id nibh vestibulum auctor. Phasellus tempor massa nisl, id consequat sem gravida vel. Donec eget tincidunt nunc. Nulla elementum lacus nec pharetra blandit. Morbi sollicitudin tellus justo, non pellentesque ex malesuada non. Pellentesque aliquam dignissim erat, in placerat urna maximus sed.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget sagittis nulla. Nullam urna nisi, luctus non tellus vitae, pulvinar fermentum eros. Nam mattis tincidunt dolor quis pharetra. Phasellus rhoncus dignissim ipsum ut hendrerit. Phasellus tempor elit sed felis pulvinar ornare.</item>
+        <item>Cras at urna laoreet, cursus lorem vel, ultrices lectus. Nullam placerat tincidunt nunc nec sagittis. Donec ornare ligula sit amet quam sodales tempor. Cras semper nibh id nibh vestibulum auctor. Phasellus tempor massa nisl, id consequat sem gravida vel. Donec eget tincidunt nunc. Nulla elementum lacus nec pharetra blandit. Morbi sollicitudin tellus justo, non pellentesque ex malesuada non. Pellentesque aliquam dignissim erat, in placerat urna maximus sed.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget sagittis nulla. Nullam urna nisi, luctus non tellus vitae, pulvinar fermentum eros. Nam mattis tincidunt dolor quis pharetra. Phasellus rhoncus dignissim ipsum ut hendrerit. Phasellus tempor elit sed felis pulvinar ornare.</item>
+        <item>Cras at urna laoreet, cursus lorem vel, ultrices lectus. Nullam placerat tincidunt nunc nec sagittis. Donec ornare ligula sit amet quam sodales tempor. Cras semper nibh id nibh vestibulum auctor. Phasellus tempor massa nisl, id consequat sem gravida vel. Donec eget tincidunt nunc. Nulla elementum lacus nec pharetra blandit. Morbi sollicitudin tellus justo, non pellentesque ex malesuada non. Pellentesque aliquam dignissim erat, in placerat urna maximus sed.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget sagittis nulla. Nullam urna nisi, luctus non tellus vitae, pulvinar fermentum eros. Nam mattis tincidunt dolor quis pharetra. Phasellus rhoncus dignissim ipsum ut hendrerit. Phasellus tempor elit sed felis pulvinar ornare.</item>
+        <item>Cras at urna laoreet, cursus lorem vel, ultrices lectus. Nullam placerat tincidunt nunc nec sagittis. Donec ornare ligula sit amet quam sodales tempor. Cras semper nibh id nibh vestibulum auctor. Phasellus tempor massa nisl, id consequat sem gravida vel. Donec eget tincidunt nunc. Nulla elementum lacus nec pharetra blandit. Morbi sollicitudin tellus justo, non pellentesque ex malesuada non. Pellentesque aliquam dignissim erat, in placerat urna maximus sed.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget sagittis nulla. Nullam urna nisi, luctus non tellus vitae, pulvinar fermentum eros. Nam mattis tincidunt dolor quis pharetra. Phasellus rhoncus dignissim ipsum ut hendrerit. Phasellus tempor elit sed felis pulvinar ornare.</item>
+        <item>Cras at urna laoreet, cursus lorem vel, ultrices lectus. Nullam placerat tincidunt nunc nec sagittis. Donec ornare ligula sit amet quam sodales tempor. Cras semper nibh id nibh vestibulum auctor. Phasellus tempor massa nisl, id consequat sem gravida vel. Donec eget tincidunt nunc. Nulla elementum lacus nec pharetra blandit. Morbi sollicitudin tellus justo, non pellentesque ex malesuada non. Pellentesque aliquam dignissim erat, in placerat urna maximus sed.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget sagittis nulla. Nullam urna nisi, luctus non tellus vitae, pulvinar fermentum eros. Nam mattis tincidunt dolor quis pharetra. Phasellus rhoncus dignissim ipsum ut hendrerit. Phasellus tempor elit sed felis pulvinar ornare.</item>
+    </string-array>
+
     <string name="title_activity_image_list">ImageList</string>
 
 </resources>

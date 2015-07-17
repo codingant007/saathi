@@ -30,6 +30,8 @@ public class MainActivity extends Activity {
     TextView description;
     ImageView titleBack;
     ImageView wheelBack;
+    String[] titleList;
+    String[] descriptionList;
 
     private static final int ITEM_COUNT = 10;
 
@@ -39,6 +41,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         WheelView wheelView = (WheelView) findViewById(R.id.wheelview);
+        title = (TextView)findViewById(R.id.title);
+        description = (TextView)findViewById(R.id.description);
+        titleBack = (ImageView)findViewById(R.id.titleback);
+        wheelBack = (ImageView)findViewById(R.id.wheelback);
+        titleList = getResources().getStringArray(R.array.title_list);
+        descriptionList = getResources().getStringArray(R.array.description_list);
+
 
         //create data for the adapter
         /*List<Map.Entry<String, Integer>> entries = new ArrayList<Map.Entry<String, Integer>>(ITEM_COUNT);
@@ -76,10 +85,11 @@ public class MainActivity extends Activity {
                 //Map.Entry<String, Integer> selectedEntry = ((MaterialColorAdapter) parent.getAdapter()).getItem(position);
                 //Drawable selectedEntry = ((WheelArrayAdapter) parent.getAdapter()).getItem(position);
                 Drawable selectedEntry = ((WheelArrayAdapter<Drawable>)parent.getAdapter()).getItem(position);
-                switch (position){
-                    case 0:
 
-                }
+                title.setText(titleList[position]);
+                description.setText(descriptionList[position]);
+                //titleBack.setImageResource(R.drawable.bg1);
+
                 //parent.setSelectionColor(getContrastColor(selectedEntry));
 
             }
