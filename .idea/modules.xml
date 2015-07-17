@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WheelViewLib/WheelViewLib.iml" filepath="$PROJECT_DIR$/WheelViewLib/WheelViewLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WheelViewSample/WheelViewSample.iml" filepath="$PROJECT_DIR$/WheelViewSample/WheelViewSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playapp/playapp.iml" filepath="$PROJECT_DIR$/playapp/playapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/saathi.iml" filepath="$PROJECT_DIR$/saathi.iml" />
+    </modules>
+  </component>
+</project>
+

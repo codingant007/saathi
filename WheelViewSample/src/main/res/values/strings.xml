@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WheelTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_plain">PlainActivity</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+
+    <string-array name="list_items">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>blah blah</item>
+        <item>blah blah</item>
+        <item>blah blah</item>
+    </string-array>
+    <string name="title_activity_image_list">ImageList</string>
+
+</resources>
