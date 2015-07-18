@@ -45,6 +45,101 @@
         <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget sagittis nulla. Nullam urna nisi, luctus non tellus vitae, pulvinar fermentum eros. Nam mattis tincidunt dolor quis pharetra. Phasellus rhoncus dignissim ipsum ut hendrerit. Phasellus tempor elit sed felis pulvinar ornare.</item>
     </string-array>
 
+
+    <string-array name="campus_life">
+        <item>Acads</item>
+        <item>Tech</item>
+        <item>Cult</item>
+        <item>Sport</item>
+        <item>Fest</item>
+        <item>Hostel</item>
+        <item>Xplore</item>
+    </string-array>
+
+    <string-array name="acads_list">
+        <item>CGPA</item>
+        <item>Branch Change</item>
+        <item>Minor Discipline</item>
+        <item>Audit Courses</item>
+        <item>What if I fail</item>
+        <item>Time Table</item>
+        <item>Core</item>
+        <item>Library books Issue</item>
+        <item>Attandance</item>
+        <item>Labs</item>
+    </string-array>
+
+    <string-array name="tech_list">
+        <item>Aero-Modelling Club</item>
+        <item>Astronomy Club</item>
+        <item>Coding Club</item>
+        <item>Electronics Club</item>
+        <item>Entrepreneurship Development Cell</item>
+        <item>Finance and Economics Club</item>
+        <item>Prakriti Club</item>
+        <item>Acumen</item>
+        <item>RadioG</item>
+        <item>Robotics Club</item>
+    </string-array>
+
+    <string-array name="cult_list">
+        <item>Anchorenza</item>
+        <item>Cadance</item>
+        <item>Fine Arts Club</item>
+        <item>LitSoc</item>
+        <item>Movie Club</item>
+        <item>Music Club</item>
+        <item>Expressions</item>
+        <item>Montage</item>
+        <item>Publication SubCommittee</item>
+    </string-array>
+
+    <string-array name="sport_list">
+        <item>Aquatics</item>
+        <item>Athletics</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Hockey</item>
+        <item>Lawn Tennis</item>
+        <item>Squash</item>
+        <item>Table Tennis</item>
+        <item>Volleyball</item>
+        <item>Weight Lifting</item>
+    </string-array>
+
+    <string-array name="fest_list">
+        <item>Alcheringa!</item>
+        <item>Techniche</item>
+        <item>Udgam</item>
+        <item>TechEvince</item>
+        <item>Kriti</item>
+        <item>Spardha</item>
+        <item>Manthan</item>
+        <item>Research Conclave</item>
+        <item>Reflux</item>
+    </string-array>
+
+    <string-array name="hostel_list">
+        <item>Special Dinner</item>
+        <item>Intra hostel Sports Tournaments</item>
+    </string-array>
+
+    <string name="xplore">Looking for some crazy things to do right away.Congratulations you are in the correct place!These places are in and around the campus do deserve a visit</string>
+    <string-array name="xplore_list">
+        <item>View Point</item>
+        <item>Facutly Quarters</item>
+        <item>All the lakes in campus</item>
+        <item>Tripping Stones</item>
+        <item>Core-I Terrarce</item>
+        <item>Agthori Station</item>
+        <item>Kameng - Hospital Road</item>
+        <item>Bio-Part and TC</item>
+        <item>River bank outside KV gate</item>
+        <item>Stairs infront of Kapili</item>
+    </string-array>
+
     <string name="title_activity_image_list">ImageList</string>
 
 </resources>
